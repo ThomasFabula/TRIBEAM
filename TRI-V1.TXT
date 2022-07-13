@@ -1,0 +1,24 @@
+ Ergebnisdatei:  TRI-V1.TXT, 20.01.93
+
+ Materialeigenschaften/Geometrie-Parameter/ANSYS-Optionen/Eigenfrequenzen: 
+
+ E-Modul (Pa), Poissonzahl, Dichte (kg/m3) 
+  0.1689000E+12  0.6250000E-01   2329.000    
+
+ Balkenlaenge, -dicke, Aufhaengung (m)
+  0.3000000E-02  0.2000000E-04  0.2000000E-03
+
+ Balkenbreiten: aussen, mitte, Balkenabstand (m)
+  0.2000000E-03  0.4000000E-03  0.5000000E-04
+
+ Elementtyp, Elementgroesse (m), MDOFs Total 
+   63.00000      0.5000000E-04   100.0000    
+
+ GEOMETRY STORED FOR   1311  NODES   1104  ELEMENTS
+
+ TITLE =  Silizium-Dreifachstimmgabel                                                    
+  LOAD STEP =     1    ITERATION =     1    FREQ =   15460.2                
+  LOAD STEP =     1    ITERATION =     2    FREQ =   16613.8                
+  LOAD STEP =     1    ITERATION =     3    FREQ =   17638.0                
+
+ Bemerkungen:  Warnungen SMALL POSITIVE PIVOT ELEMENTS...

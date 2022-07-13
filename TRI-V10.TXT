@@ -1,0 +1,43 @@
+ Ergebnisdatei: TRI-V10.TXT, 21.01.93
+
+ Testrechnung mit ANSYS 5.0 (Vergleiche: TRI-V1.TXT)
+                                                                         
+ Modell: TRIBEAM.F18, Silizium-Dreifachstimmgabel.                       
+ Kommentar: Frequenzaenderung infolge Geometrievariation.                
+                                                                         
+ Materialeigenschaften:                                                  
+ E-Modul = 1.689E+11 (Pa)                                                
+  Poissonzahl = 6.25E-02                                                 
+  Dichte = 2329.0 (kg/m3).                                               
+                                                                         
+ Geometrieparameter:                                                     
+ Balkenlaenge = 3.0E-03 (m)                                              
+  Balkendicke = 2.0E-05 (m)                                              
+  Aufhaengung = 2.0E-04 (m).                                             
+ Balkenbreite: aussen = 2.0E-04 (m)                                      
+  Balkenbreite: mitte = 4.0E-04 (m).                                     
+ Balkenabstand = 5.0E-05 (m).                                            
+                                                                         
+ ANSYS-Optionen:                                                         
+ Elementtyp = 63                                                         
+  Elementgroesse = 5.0E-05 (m)                                           
+  MDOFs Total = 100.                                                     
+                                                                         
+ Eigenfrequenzen:                                                        
+   SET   TIME/FREQ    LOAD STEP   SUBSTEP  CUMULATIVE
+     1  15457.             1         1         1
+     2  16611.             1         2         2
+     3  17634.             1         3         3
+                                                                         
+ Bemerkungen:
+ TOTAL MASS =  0.12856E-06
+                           MOM. OF INERTIA         MOM. OF INERTIA
+     CENTROID               ABOUT ORIGIN           ABOUT CENTROID
+  XC =  0.17000E-02      IXX =   0.3492E-13      IXX =   0.8884E-14
+  YC =  0.45000E-03      IYY =   0.4983E-12      IYY =   0.1268E-12
+  ZC =  0.00000E+00      IZZ =   0.5333E-12      IZZ =   0.1357E-12
+                         IXY =  -0.9835E-13      IXY =   0.0000E+00
+                         IYZ =   0.0000E+00      IYZ =   0.0000E+00
+                         IZX =   0.0000E+00      IZX =   0.0000E+00
+
+ Small positive pivot at node 138 ROTZ...

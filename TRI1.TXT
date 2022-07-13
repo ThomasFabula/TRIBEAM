@@ -1,0 +1,27 @@
+ Ergebnisdatei:  TRI1.TXT, 19.01.93
+
+ Materialeigenschaften/Geometrie-Parameter/ANSYS-Optionen/Eigenfrequenzen: 
+ E-Modul (Pa), Poissonzahl, Dichte (kg/m3) 
+  0.1689000E+12  0.6250000E-01   2329.000    
+ Balkenlaenge, -dicke, Aufhaengung (mm)
+   3.011000      0.2000000E-01  0.2000000    
+ Balkenbreiten: aussen, mitte, Balkenabstand (mm)
+  0.2000000      0.4000000      0.4000000E-01
+ Elementtyp, Elementgroesse (mm), MDOFs Total 
+   63.00000      0.5000000E-01   50.00000    
+ GEOMETRY STORED FOR   1690  NODES   1530  ELEMENTS
+ TITLE =  Silizium-Dreifachstimmgabel                                                    
+ TOTAL = 50:
+  LOAD STEP =     1    ITERATION =     1    FREQ =   15310.9                
+  LOAD STEP =     1    ITERATION =     2    FREQ =   16525.1                
+  LOAD STEP =     1    ITERATION =     3    FREQ =   17580.6                
+  LOAD STEP =     1    ITERATION =     4    FREQ =   42471.2                
+  LOAD STEP =     1    ITERATION =     5    FREQ =   45771.3                
+
+ TOTAL = 100:
+  LOAD STEP =     1    ITERATION =     1    FREQ =   15300.9                
+  LOAD STEP =     1    ITERATION =     2    FREQ =   16513.8                
+  LOAD STEP =     1    ITERATION =     3    FREQ =   17566.5                
+  LOAD STEP =     1    ITERATION =     4    FREQ =   42115.0                
+  LOAD STEP =     1    ITERATION =     5    FREQ =   45414.5                
+

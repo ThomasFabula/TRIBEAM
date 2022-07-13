@@ -1,0 +1,42 @@
+ Ergebnisdatei:  TRIK2E50.TXT
+
+ Materialeigenschaften/Geometrie-Parameter/ANSYS-Optionen/Eigenfrequenzen: 
+
+ E-Modul (Pa), Poissonzahl, Dichte (kg/m3) 
+  0.1689000E+12  0.6250000E-01   2329.000    
+
+ Balkenlaenge, -dicke, Aufhaengung (m)
+  0.3000000E-02  0.2000000E-04  0.5000000E-04
+
+ Balkenbreiten: aussen, mitte, Balkenabstand (m)
+  0.2000000E-03  0.4000000E-03  0.5000000E-04
+
+ Elementtyp, Elementgroesse (m), MDOFs Total 
+   63.00000      0.5000000E-04   100.0000    
+
+ GEOMETRY STORED FOR   1197  NODES    996  ELEMENTS
+
+ TITLE =  Silizium-Dreifachstimmgabel                                                    
+  LOAD STEP =     1    ITERATION =     1    FREQ =   18331.9                
+  LOAD STEP =     1    ITERATION =     2    FREQ =   18388.0                
+  LOAD STEP =     1    ITERATION =     3    FREQ =   18449.1                
+  LOAD STEP =     1    ITERATION =     4    FREQ =   50745.3                
+  LOAD STEP =     1    ITERATION =     5    FREQ =   50898.9                
+  LOAD STEP =     1    ITERATION =     6    FREQ =   51083.4                
+  LOAD STEP =     1    ITERATION =     7    FREQ =   100805.                
+  LOAD STEP =     1    ITERATION =     8    FREQ =   101079.                
+  LOAD STEP =     1    ITERATION =     9    FREQ =   101587.                
+  LOAD STEP =     1    ITERATION =    10    FREQ =   102207.                
+
+ Bemerkungen: 
+ - small positive pivots...
+ - RMS = 222.1
+ - Schwingungsmoden: 
+ -  M1 : alle drei symmetrisch
+ -  M2 : beiden aeusseren Balken antsymm. mittl. Balken in Ruhe
+ -  M3 : antisymm. Mode !!!
+ -  M4 : symm. Oberwelle zu M1
+ -  M5 : antisymm. Oberwelle zu M2
+ -  M6 : antisymm. Oberwelle zu M3
+ -  M7 : Torsionsschwingung
+ -  M8, M9, M10 entartete ueberlagerte Oberwellen...  
