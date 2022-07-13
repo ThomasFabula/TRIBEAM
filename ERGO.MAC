@@ -1,0 +1,26 @@
+/com   Datei: ERGO.MAC
+/com  
+/com   Auflisten der Eigenfrequenzen
+/com   einer Modalanalyse und der Modellparameter
+/com   Modell: TRIBEAM.F18, Silizium-Dreifachstimmgabel
+/com   Ergebnisdatei: ERGO.TXT
+/post1
+gesl=2*lang
+/outp,ergo,txt
+*msg,info
+(' Ergebnisdatei: ' )
+*msg,info
+(' Materialeigenschaften/Geometrie-Parameter/ANSYS-Optionen/Eigenfrequenzen: ')
+*msg,info,emod,pois,rho
+(' E-Modul (Pa), Poissonzahl, Dichte (kg/m3) '  /,3G15.7)
+*msg,info,gesl,dick,aufh
+(' Balkenlaenge, -dicke, Aufhaengung (m)' /,3G15.7)
+*msg,info,y1,y3,y2
+(' Balkenbreiten: aussen, mitte, Balkenabstand (m)' /,3G15.7)
+*msg,info,ELTY,ELGR,TOTL
+(' Elementtyp, Elementgroesse (m), MDOFs Total ' /,3G15.7)
+set,list
+*msg,info
+(' Bemerkungen: ' )
+/outp,6
+fini
