@@ -1,0 +1,33 @@
+/com    Datei: TRIBEAM.K6
+
+/COM    ANSYS-Parameter
+KAN,6
+KAY,3,1
+iter,50,,1
+kbc,1
+harf,18300,18600
+dmprat,1.1e-3
+TOTL=100        ! Anzahl MDOFs
+
+/COM    Anregung der Struktur an den
+/COM    Befestigungspunkten: 1 um 
+/com    (Displacement-Befehl: D)
+CSYS
+NSEL,X
+NASEL,X,2*X1
+d,all,uz,1e-6   ! Anregung definieren
+NALL
+WSORT,X
+TOTAL,TOTL,1
+nsel,x,x1       ! MDOFs in Strukturmitte
+nasel,y,.45e-3  ! entlang der Mittellinie
+m,all,uz
+nall
+
+/com  ===============  Berechnung starten
+! afwr
+! fini
+! /inp,27
+! fini
+/com  ===============  Berechnung beendet !!!
+
