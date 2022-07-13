@@ -1,0 +1,18 @@
+/COM    Datei: TRIBEAM.K2
+
+/COM     ANSYS-Parameter
+TOTL=100        ! Anzahl MDOFs
+KAN,2
+KAY,2,10
+KAY,3,-10
+/com KAY,8,1
+TOTAL,TOTL,1
+
+/com  ===============  Berechnung starten
+afwr
+fini
+/inp,27
+fini
+ergo   ! MACRO aufrufen
+/com  ===============  Berechnung beendet !!!
+
