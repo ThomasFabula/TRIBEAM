@@ -1,0 +1,50 @@
+/COM   Datei:  TRIKAN6.MAC
+
+/COM   Macro fuer Amplitudendarstellung im POST26
+/COM   und Dokumentation der Ergebnisse
+/com   Modell: TRIBEAM.F18, Silizium-Dreifachstimmgabel
+/com   Ergebnisdatei: AMPL.DAT
+/prep7
+resume
+gesl=2*lang
+/outp,ampl,dat             ! Umleitung der Ausgabe
+*msg,info
+(' Ergebnisdatei: TRI' )
+*msg,info
+(' Materialeigenschaften/Geometrie-Parameter/ANSYS-Optionen: ')
+*msg,info,emod,pois,rho
+(' E-Modul (Pa), Poissonzahl, Dichte (kg/m3) '  /,3G15.7)
+*msg,info,gesl,dick,aufh
+(' Balkenlaenge, -dicke, Aufhaengung (m)' /,3G15.7)
+*msg,info,y1,y3,y2
+(' Balkenbreiten: aussen, mitte, Balkenabstand (m)' /,3G15.7)
+*msg,info,ELTY,ELGR,TOTL
+(' Elementtyp, Elementgroesse (m), MDOFs Total ' /,3G15.7)
+*msg,info,anzl,fsta,fsto
+(' Iterationsanzahl, Startfrequenz (Hz), Stopfrequenz (Hz) ' /,3G15.7)
+*msg,info,damf,ausl
+(' Daempfungskoeffizient, Anregungsauslenkung (m) ' /,3G15.7)
+*msg,info
+(' Bemerkungen: ' )
+*msg,info
+(' MDOFs: ' )
+nsel,x,x1
+nlist
+nsel,y,ymit
+nlist
+fini
+/post26             ! POST-Processor aufrufen
+file,10
+disp,2,2,uz,untn    ! Amplitude am unteren Balken (mitte)
+disp,3,105,uz,mitt  ! Amplitude am mittleren Balken (mitte)
+disp,4,170,uz,oben  ! Amplitude am oberen Balken (mitte)
+grid,1
+ylab,ampl
+xlab,freq
+plcp
+plva,2
+prcp,1
+prva,2,3,4
+/outp
+/COM       ============  MACRO  beendet  ==========
+
