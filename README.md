@@ -1,5 +1,5 @@
 # TRIBEAM
-- ANSYS analyses of triple-beam silicon sensors with piezo electric thin-films
+- FEM analyses of triple-beam silicon sensors with piezo electric thin-films
 - Silizium-Dreifachstimmgabel mit piezo-elektrischer ZnO-Dünnschicht 
 - monocrystalline Silicon / single-crystal silicon / Si(100)
 
