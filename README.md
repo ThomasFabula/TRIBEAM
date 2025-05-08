@@ -14,3 +14,6 @@ A resonant force sensor with semidigital frequency output based on a triple-beam
 - https://tfconsult.com/verbundforschung-mikrosystemtechnik/
 - https://tfconsult.com/comett-course-resonant-microsensors/
 - https://tfconsult.com/si-kraftsensoren-mit-piezoelektrischem-antrieb/
+- https://tfconsult.com/tag/fasens/
+
+  
