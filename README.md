@@ -1,7 +1,12 @@
 # TRIBEAM
-- EN: FEM analyses of triple-beam silicon sensors with piezoelectric ZnO thin-films
-- DE: numerische Simulation Silizium-Dreifachstimmgabel mit piezo-elektrischer ZnO-Dünnschicht 
+
+## ENGLISH
+- FEM analyses of triple-beam silicon sensors with piezoelectric ZnO thin-films
 - monocrystalline Silicon / single-crystalline silicon / Si(100)
+
+## DEUTSCH
+- numerische Simulation Silizium-Dreifachstimmgabel mit piezo-elektrischer ZnO-Dünnschicht 
+- monokrystallines Silizium / ein-kristallines Silizium / Si(100)
 
 ## Sensors and Actuators A: Physical
 - https://www.sciencedirect.com/science/article/abs/pii/0924424794800154?via%3Dihub
